@@ -35,7 +35,7 @@ float *manual(float *tab, int taille) {
   printf("Enter values:\n");
   for (int i = 0; i < taille; i++) {
     printf("tab[%d] = ", i);
-    scanf("%f", &tab[i]); // Use %f to scan a float value into the array
+    scanf("%f", &tab[i]); 
   }
   return tab;
 }
